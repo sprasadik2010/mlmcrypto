@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/CryptoPayment/', // 🔹 Add this line (your repo name)
+  base: '/', // 🔹 Add this line (your repo name)
   plugins: [
     tailwindcss(),
     react()
